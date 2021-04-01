@@ -4,17 +4,15 @@ public class Sclass extends Mersedes{
 
     private int motorType;
     private int boxType;
-
     public int getMotorType() {
         return motorType;
     }
-
     public int getBoxType() {
         return boxType;
     }
 
-    public Sclass(int wheels, String steering, String typeCar, Color color) {
-        super(wheels, steering, typeCar, color);
+    public Sclass(int wheels, String steering, String typeCar, Color color, int class4) {
+        super(wheels, steering, typeCar, color, class4);
     }
 
     @Override

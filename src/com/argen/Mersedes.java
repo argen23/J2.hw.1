@@ -13,8 +13,8 @@ public class Mersedes extends Car {
         return volume;
     }
 
-    public Mersedes(int wheels, String steering, String typeCar, Color color) {
-        super(wheels, steering, typeCar, color);
+    public Mersedes(int wheels, String steering, String typeCar, Color color, int class4) {
+        super(wheels, steering, typeCar, color , class4);
     }
 
     @Override
