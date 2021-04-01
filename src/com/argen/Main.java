@@ -3,19 +3,16 @@ package com.argen;
 public class Main {
 
     public static void main(String[] args) {
-        Mersedes objectA = new Mersedes(4 , " rigth" , "cars" , Color.BLACK, 6);
-        Sclass objectB = new Sclass(4,"left", " freight", Color.GRAY, 3);
-        Sclass objectC = new Sclass(4,"right", "cars", Color.RED, 2);
+        Class4 class4 = new Class4(555,"Germany");
+        Mersedes objectA = new Mersedes(4 , " rigth" , "cars" , Color.BLACK  , class4 );
+        Sclass objectB = new Sclass(4,"left", " freight", Color.GRAY ,new Class4(394,"Germany"));
+        Sclass objectC = new Sclass(4,"right", "cars", Color.RED ,new Class4(389,"Germany"));
         System.out.println("\n  OBJECT A" +objectA.getInfo() + "\n  OBJECT B" + objectB.getInfo() + " \n  OBJECT C  " + objectC.getInfo() );
         objectA.numCar(73,2);
         objectB.numCar(23,3);
         objectC.numCar(244,6);
     }
-
 }
-
-
-
 
 
 

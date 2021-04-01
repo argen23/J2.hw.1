@@ -5,8 +5,11 @@ public class Car {
     private String steering;
     private String typeCar;
     private Color color;
-    private int class4;
+    private Class4 class4;
 
+    public Class4 getClass4() {
+        return class4;
+    }
 
     public int getWheels() {
         return wheels;
@@ -24,7 +27,7 @@ public class Car {
         return color;
     }
 
-    public Car(int wheels, String steering, String typeCar, Color color , int class4) {
+    public Car(int wheels, String steering, String typeCar, Color color , Class4 class4 ) {
         this.wheels = wheels;
         this.steering = steering;
         this.typeCar = typeCar;
@@ -32,7 +35,7 @@ public class Car {
         this.class4 = class4;
     }
     public String getInfo(){
-        return  " \n wheels = " + wheels + "\n steering = " + steering + "\n type Car = " + typeCar + "\n color = " + color + "\n class4 = " + class4 ;
+        return  " \n wheels = " + wheels + "\n steering = " + steering + "\n type Car = " + typeCar + "\n color = " + color + "\nkgz=" + getClass4().getKgz() + "\nminC=" + getClass4().getmInC() ;
     }
 }
 
